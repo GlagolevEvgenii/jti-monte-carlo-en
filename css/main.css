@@ -1,0 +1,331 @@
+
+
+
+*,::after,::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: "Noto Sans Armenian";
+    font-style: normal;
+    font-weight: 400;
+    min-width: 320px;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+footer{
+    flex: 0 0 auto;
+}
+.container{
+    padding: 0 22px;
+}
+header{
+    padding: 22px 0 0;
+}
+main {
+    flex: 1 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+.regular-content{
+    max-width: 392px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-bg{
+    background-image: url(../img/main-bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 102px);
+    position: relative;
+    padding-bottom: 26px;
+    padding-top: 40px;
+}
+
+
+
+.btn{
+    height: 64px;
+    padding: 0 9px;
+    border: none;
+    color: #FFF;
+    border-radius: 12px;
+    opacity: 0.9;
+    background: #025593;
+    transition: background-color 1s ease;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background: #025593;
+}
+
+.btn:focus{
+    background: #025593;
+}
+
+.btn:active{
+    background: #025593;
+}
+.image-holder{
+    margin-bottom: 82px;
+}
+
+.swiper{
+    max-width: 398px;
+    margin: 0 auto 22px;
+    padding-bottom: 40px !important;
+}
+
+
+.slider-text{
+    color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px; /* 150% */
+    margin: 0;
+}
+
+.buttons-wrap{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+}
+
+
+
+
+.link{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+
+.regular-title{
+    text-align: center;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 129.412% */
+    letter-spacing: 0.34px;
+    text-transform: uppercase;
+}
+.regular-title{
+    text-align: center;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 129.412% */
+    letter-spacing: 0.34px;
+    text-transform: uppercase;
+}
+.regular-subtitle{
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
+
+.regular-title.small-mode{
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
+.regular-text{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    margin: 0;
+}
+
+
+.mail-link{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+.mb-25 {
+    margin-bottom: 25px !important;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+.mb-34{
+    margin-bottom: 34px!important;
+}
+.mb-45{
+    margin-bottom: 45px!important;
+}
+.mb-46{
+    margin-bottom: 46px!important;
+}
+.mb-74{
+    margin-bottom: 74px!important;
+}
+.pt-98{
+    padding-top: 98px!important;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: auto !important;
+    bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    height: 15px !important;
+    width: 15px !important;
+    background-color:#C6C9CC !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #025593 !important;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
+}
+
+.footer{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.footer img{
+    display: flex;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+.radio-holder{
+    display: flex;
+    flex-direction: column;
+    gap:26px;
+    margin-bottom: 178px;
+}
+.form-control {
+    color: #000;
+    text-align: center;
+    font-family: "Noto Sans Armenian";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #FFFFFF;
+    margin: 0;
+    font: inherit;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #8B8B8B;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #C6C9CC;
+}
+
+input[type="radio"]:checked::before {
+    background: #025593;
+}
+
+@media (min-width: 480px) {
+    .main-bg{
+        padding-top: 98px;
+    }
+
+    .regular-title{
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .regular-title.small-mode{
+        font-size: 30px;
+    }
+    .btn{
+        font-size: 18px;
+
+    }
+}
