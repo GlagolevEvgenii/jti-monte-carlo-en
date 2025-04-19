@@ -1,4 +1,25 @@
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadline.ttf');
+    url('../fonts/FuturaNowHeadline.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadlineMedium.ttf');
+    url('../fonts/FuturaNowHeadlineMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Futura Now Headline';
+    src: url('../fonts/FuturaNowHeadlineBold.ttf');
+    url('../fonts/FuturaNowHeadlineBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
 
 
 *,::after,::before {
@@ -19,7 +40,7 @@ html {
 }
 
 body {
-    font-family: "Noto Sans Armenian";
+    font-family: "Futura Now Headline";
     font-style: normal;
     font-weight: 400;
     min-width: 320px;
@@ -59,7 +80,7 @@ img{
     background-size: cover;
     min-height: calc(100vh - 102px);
     position: relative;
-    padding-bottom: 26px;
+    padding-bottom: 70px;
     padding-top: 40px;
 }
 
@@ -79,7 +100,7 @@ img{
     width: 100%;
     font-size: 15px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 0.18px;
     text-transform: uppercase;
@@ -112,7 +133,7 @@ img{
     text-align: center;
     font-size: 22px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 33px; /* 150% */
     margin: 0;
 }
@@ -151,24 +172,17 @@ img{
     letter-spacing: 0.34px;
     text-transform: uppercase;
 }
-.regular-title{
-    text-align: center;
-    font-size: 29px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px; /* 129.412% */
-    letter-spacing: 0.34px;
-    text-transform: uppercase;
-}
+
 .regular-subtitle{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.2px;
     text-transform: uppercase;
-    margin: 0 0 15px 0;
+    margin: 0 0 30px 0;
+    text-shadow: 0px 0px 12.2px #FFF;
 }
 
 .regular-title.small-mode{
@@ -181,8 +195,8 @@ img{
     text-align: center;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-weight: 500;
+    line-height: 33px;
     letter-spacing: 0.2px;
     margin: 0;
 }
@@ -191,8 +205,8 @@ img{
 .mail-link{
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+    font-weight: 700;
+    line-height: 33px;
     letter-spacing: 0.2px;
     text-decoration-line: underline;
     text-decoration-style: solid;
@@ -218,20 +232,32 @@ img{
 .mb-34{
     margin-bottom: 34px!important;
 }
+.mb-40{
+    margin-bottom: 40px!important;
+}
 .mb-45{
     margin-bottom: 45px!important;
 }
 .mb-46{
     margin-bottom: 46px!important;
 }
-.mb-74{
-    margin-bottom: 74px!important;
+.mb-68{
+    margin-bottom: 68px!important;
+}
+.mb-81{
+    margin-bottom: 81px!important;
 }
 .pt-98{
     padding-top: 98px!important;
 }
+.pt-124{
+    padding-top: 64px!important;
+}
 
-
+.slider-image{
+    display: block;
+    margin: 0 auto 40px;
+}
 
 .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     top: auto !important;
@@ -275,7 +301,7 @@ img{
 .form-control {
     color: #000;
     text-align: center;
-    font-family: "Noto Sans Armenian";
+    font-family: "Futura Now Headline";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -326,6 +352,8 @@ input[type="radio"]:checked::before {
     }
     .btn{
         font-size: 18px;
-
+    }
+    .pt-124{
+        padding-top: 124px!important;
     }
 }
